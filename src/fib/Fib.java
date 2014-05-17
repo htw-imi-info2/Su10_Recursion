@@ -11,14 +11,10 @@ public class Fib {
 	}
 
 	public static long fibLoop(int n) {
-		if (n == 0)
-			return 0;
-		if (n == 1)
-			return 1;
-		long fib0 = 0;
-		long fib1 = 1;
-		long fib2 = 3;
-		for (int i = 2; i <= n; i++) {
+		long fib0 = 1;
+		long fib1 = 0;
+		long fib2 = 0;
+		for (int i = 1; i <= n; i++) {
 			fib2 = fib0 + fib1;
 			fib0 = fib1;
 			fib1 = fib2;
