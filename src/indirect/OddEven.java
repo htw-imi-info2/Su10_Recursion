@@ -1,5 +1,10 @@
 package indirect;
 
+/**
+ * This is an odd example for indirect recursion.
+ * @author kleinen
+ *
+ */
 public class OddEven {
 
 	public static boolean isOdd(int i) {
